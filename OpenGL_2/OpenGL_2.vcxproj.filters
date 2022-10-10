@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="原始程式檔">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{a3a13fbf-12e6-40b6-b6be-8380c0a38d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="原始程式檔\Shader">
+      <UniqueIdentifier>{c0f375a0-d333-4a53-b814-87fb1e9c0a36}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="InitShader.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\common.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Timer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameObject.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\PlayerShip.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Player.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Bullet.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\EnemyShip.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Enemy.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameOver.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Background.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\EnemyShip2.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Enemy2.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Star.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Shield.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\HealthPointBar.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Boss.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\BossShip.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Bossship2.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Treasure.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\PlayerShip2.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\PlayerShip3.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\PlayerSmallShip.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header\Angel.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\CheckError.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\mat.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\vec.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Timer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameObject.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\PlayerShip.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Player.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Bullet.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\EnemyShip.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Enemy.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameOver.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Background.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\EnemyShip2.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Enemy2.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Star.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Shield.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\HealthPointBar.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Boss.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\BossShip.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Bossship2.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Treasure.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\PlayerShip2.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\PlayerShip3.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\PlayerSmallShip.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fsVtxColor.glsl">
+      <Filter>原始程式檔\Shader</Filter>
+    </None>
+    <None Include="vsVtxColor.glsl">
+      <Filter>原始程式檔\Shader</Filter>
+    </None>
+    <None Include="vsVtxColorEX2.glsl">
+      <Filter>原始程式檔\Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
